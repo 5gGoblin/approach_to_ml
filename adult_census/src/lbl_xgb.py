@@ -1,7 +1,8 @@
+import config
 import pandas as pd
 import xgboost as xgb
-import config
 from sklearn import metrics, preprocessing
+
 
 def run(fold):
     data = pd.read_csv(config.TRAIN_FOLDS_FILE)

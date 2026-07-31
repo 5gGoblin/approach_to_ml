@@ -2,6 +2,7 @@ import config
 import pandas as pd
 from sklearn import linear_model, metrics, preprocessing
 
+
 def run(fold):
     data = pd.read_csv(config.TRAIN_FOLDS_FILE)
     print(f"Original Data Shape: {data.shape[0]} rows, {data.shape[1]} columns")
