@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Environments
+.env
+venv/
+env/
+*.egg-info/
+
+# Datasets — usually large, often downloadable separately
+**/input/*
+!**/input/.gitkeep
+
+# Trained models — large binary files, regenerable from code
+**/models/*
+!**/models/.gitkeep
+
+# Jupyter
+**/notebooks/.ipynb_checkpoints/
+
+# Mac
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
